@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: decision_maker_production
-  username: decision_maker
-  password: <%= ENV["DECISION_MAKER_DATABASE_PASSWORD"] %>
+  url: <% ENV['DATABASE_URL'] %>
