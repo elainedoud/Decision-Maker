@@ -36,7 +36,8 @@
       "last 1 safari version"
     ]
   },
-  "alias": [
-    "react: path.resolve('./node_modules/react')"
-  ]
+  "resolutions": {
+    "**/react": "18.2.0",
+    "**/react-dom": "18.2.0"
+}
 }
