@@ -9,21 +9,14 @@ function App() {
       <header className="App-header">
       Decision Maker
       </header>
+      </div>
       <Route path="secondpage">
-      <h4>
-        Welcome
-      </h4>
-      </Route>
-    </div>
-    <div className="Secondpage">
-      <Route path="yesno">
-    <h1>Option 1</h1>
-      </Route>
-    </div>
+        <div>{Welcome}</div>
+        </Route>
     <div className="DecidePage">
-      <div>Yes/NoComponent</div>
+      <div>{Yes/NoComponent}</div>
         <Route path="/">
-          <div>Return Home</div>
+          <div>{Return_Home}</div>
         </Route>
     </div>
       </Routes>
