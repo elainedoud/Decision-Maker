@@ -12,7 +12,7 @@ function App() {
       </header>
       </div>
       <Route path="/secondpage" 
-        element={<h2>{Welcome}</h2>}
+        element={{Welcome}}
       />
         </Routes>
     </BrowserRouter>
