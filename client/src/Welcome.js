@@ -3,13 +3,9 @@ import Option_1 from "./Option_1"
 
 function Welcome (){
     return (
-        <BrowserRouter>
-            <Routes>
-                <h4>Welcome</h4>
-                <Route path="yesno"
-                    element={{Option_1}} />
-            </Routes>
-        </BrowserRouter>
+        <div className="Homepage">
+           <h1>Welcome</h1> 
+        </div>
     )
 }
 

@@ -1,21 +1,22 @@
 import './App.css';
 import Welcome from './Welcome';
+import Option_1 from './Option_1';
+import Homepage from './Homepage';
 import { Routes, Route, BrowserRouter } from "react-router-dom"
 
 function App() {
   return (
-    <BrowserRouter>
+    <div>
+      <BrowserRouter>
       <Routes>
-    <div className="Homepage">
-      <header className="App-header">
-      Decision Maker
-      </header>
-      </div>
+      <Route path="/" element={{Homepage}}/>
       <Route path="/secondpage" 
-        element={{Welcome}}
-      />
-        </Routes>
+        element={{Welcome}} />
+      <Route path="/yesno"
+        element={{Option_1}} />
+      </Routes>
     </BrowserRouter>
+    </div>
   );
 }
 
