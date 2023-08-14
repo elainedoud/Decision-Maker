@@ -11,10 +11,10 @@ function App() {
       Decision Maker
       </header>
       </div>
-      <Route path="secondpage">
-        <div>{Welcome}</div>
-        </Route>
-      </Routes>
+      <Route path="/secondpage" 
+        element={<h2>{Welcome}</h2>}
+      />
+        </Routes>
     </BrowserRouter>
   );
 }

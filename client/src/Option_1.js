@@ -6,9 +6,8 @@ function Option_1() {
         <Routes>
         <div>
             <h1>Yes</h1>
-            <Route path="/">
-            <div>Return_Home</div>
-            </Route>
+            <Route path="/" 
+            element={<h1>Return_Home</h1>}/> 
         </div>
         </Routes>
         </BrowserRouter>

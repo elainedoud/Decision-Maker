@@ -7,9 +7,8 @@ function Welcome (){
             <Routes>
                 <h4>Welcome</h4>
                  <div className="Secondpage">
-                <Route path="yesno">
-                    <h1>{Option_1}</h1>
-               </Route>
+                <Route path="yesno"
+                    element={<h1>{Option_1}</h1>} />
                  </div>
             </Routes>
         </BrowserRouter>
