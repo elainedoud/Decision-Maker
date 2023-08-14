@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Routes, Route, BrowserRouter } from "react-router-dom"
 
 function Homepage(){
 
@@ -8,7 +7,7 @@ function Homepage(){
     <div className="Homepage">
         <h1>Decision Maker</h1>
         <nav>
-        <Link to="/yesno">Welcome</Link>
+        <Link to="/secondpage">Welcome</Link>
         </nav>
      </div>
 

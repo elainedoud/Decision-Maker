@@ -12,7 +12,7 @@ function App() {
       <Route path="/" element={ <Homepage />}/>
       <Route path="/secondpage" 
         element={ <Welcome />} /> 
-      <Route path="/yesno"
+      <Route path="/secondpage/yesno"
         element={ <Option_1 />} />
       </Routes>
     </BrowserRouter>
