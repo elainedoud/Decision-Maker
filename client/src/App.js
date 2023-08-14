@@ -9,11 +9,11 @@ function App() {
     <div>
       <BrowserRouter>
       <Routes>
-      <Route path="/" element={{Homepage}}/>
+      <Route path="/" element={ <Homepage />}/>
       <Route path="/secondpage" 
-        element={{Welcome}} />
+        element={ <Welcome />} /> 
       <Route path="/yesno"
-        element={{Option_1}} />
+        element={ <Option_1 />} />
       </Routes>
     </BrowserRouter>
     </div>
