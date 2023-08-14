@@ -7,7 +7,7 @@ function Option_1() {
         <div>
             <h1>Yes</h1>
             <Route path="/" 
-            <h2> Return Home </h2> /> 
+            element={App} /> 
         </div>
         </Routes>
         </BrowserRouter>
