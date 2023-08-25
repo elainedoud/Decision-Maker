@@ -4,6 +4,10 @@ import Option_1 from './Option_1';
 import Homepage from './Homepage';
 import { Routes, Route, BrowserRouter } from "react-router-dom"
 
+require('react-dom')
+window.React2 = require('react')
+console.log(window.React1 === window.React2);
+
 function App() {
   return (
     <div>
