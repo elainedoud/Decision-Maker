@@ -6,7 +6,7 @@ function Homepage(){
     return (    
     <div className="Homepage">
         <h1>Decision Maker</h1>
-        <nav>
+        <nav class="welcome">
         <Link to="/secondpage">Welcome</Link>
         </nav>
      </div>

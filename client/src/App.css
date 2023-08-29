@@ -37,9 +37,13 @@
   }
 }
 
+.weclome {
+  text-decoration: none;
+}
+
 .page {
-  padding: 300px;
-  margin: 100px;
+  padding: 175px;
+  padding-left: 500px;
 }
 
 .box {
