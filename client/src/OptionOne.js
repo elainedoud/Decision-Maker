@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Option_1() {
+function OptionOne() {
     return (
     <div>
         <h1>Yes/No</h1>
@@ -21,4 +21,4 @@ function Option_1() {
 
 
 
-export default Option_1
+export default OptionOne
