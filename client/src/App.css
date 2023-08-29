@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.page {
+  padding: 300px;
+  margin: 100px;
+}
+
+.box {
+  width: 300px;
+  border: 15px solid navy;
+  padding: 50px;
+  margin: 20px;
+  background-color: #9562C7;
+  color: white;
+}
