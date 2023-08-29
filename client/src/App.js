@@ -9,19 +9,18 @@ window.React2 = require('react')
 console.log(window.React1 === window.React2);
 
 function App() {
-  return (
-    <div>
-      <BrowserRouter>
-      <Routes>
-      <Route path="/" element={ <Homepage />}/>
-      <Route path="/secondpage" 
-        element={ <Welcome />} /> 
-      <Route path="/secondpage/yesno"
-        element={ <OptionOne />} />
-      </Routes>
-    </BrowserRouter>
-    </div>
-  );
+
+ return (
+  <div>
+    <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<Homepage />}/>
+    <Route path="/secondpage" element={<Welcome />} /> 
+    <Route path="/secondpage/yesno" element={<OptionOne />} />
+    </Routes>
+  </BrowserRouter>
+  </div>
+ );
 }
 
 export default App;
