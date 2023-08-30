@@ -35,9 +35,35 @@
 
 .box {
   width: 300px;
+  transition: all 1s linear;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.yes,
+.no{
+  height: 100%;
+  width: 100%;
   border: 15px solid navy;
   padding: 50px;
   margin: 20px;
   background-color: #9562C7;
   color: white;
+  display: flex;
+  position: absolute;
+}
+
+.yes{
+  z-index: 2;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+.no{
+  z-index: 1;
+  transform: rotateY(180deg);
+}
+
+.page:hover .box{
+  transform: rotateY(180deg);
 }

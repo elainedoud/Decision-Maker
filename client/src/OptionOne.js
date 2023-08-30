@@ -5,7 +5,7 @@ function OptionOne() {
 
     const [answer, setAnswer] = useState([])
 
-    useEffect(() =>{
+    /*useEffect(() =>{
     let our_integer = Math.floor(Math.random() * 10)
     if (our_integer <= 4){
         setAnswer(true)
@@ -14,11 +14,15 @@ function OptionOne() {
         setAnswer(false)
     }
 },[])
+{answer?<h1 clasName="yes">Yes</h1>:<h1 className="no">No</h1>} 
+
+*/
 
     return (
     <div className="page">
         <div className="box"> 
-       {answer?<h1>Yes</h1>:<h1>No</h1>} 
+            <h1 clasName="yes">Yes</h1>
+            <h1 className="no">No</h1>
         </div>
     <nav>
         <Link to="/" className="optionlink">Return Home</Link>
