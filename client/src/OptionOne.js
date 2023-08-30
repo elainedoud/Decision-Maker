@@ -1,14 +1,19 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 
 function OptionOne() {
 
-    //const [answer, setAnswer] = useState("")
+    const [answer, setAnswer] = useState([])
 
-    let answer = true;
-
+    useEffect(() =>{
     let our_integer = Math.floor(Math.random() * 10)
-    console.log(our_integer)
+    if (our_integer <= 4){
+        setAnswer(true)
+    }
+    else {
+        setAnswer(false)
+    }
+},[])
 
     return (
     <div className="page">
