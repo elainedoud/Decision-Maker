@@ -4,11 +4,13 @@ import { Link } from 'react-router-dom';
 function Homepage(){
 
     return (    
-    <div className="Homepage">
-        <h1>Decision Maker</h1>
-        <nav class="welcome">
-        <Link to="/secondpage">Welcome</Link>
+    <div>
+        <h1 className="Homepage">Decision Maker</h1>
+        <div className='welcomepage'>
+        <nav>
+        <Link to="/secondpage" className="welcome">Welcome</Link>
         </nav>
+        </div>
      </div>
 
     )

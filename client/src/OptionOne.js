@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 function OptionOne() {
     return (
-    <div class="page">
-        <div class="box">
+    <div className="page">
+        <div className="box">
         <h1>Yes/No</h1>
         </div>
     <nav>
-     <Link to="/">Return Home</Link>
+     <Link to="/" className="optionlink">Return Home</Link>
      </nav>
      </div>
     )

@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 function Welcome (){
     return (
-        <div className="Homepage">
+        <div className="Startpage">
            <h1>Start Here</h1>
            <nav>
-            <Link to="yesno">Option 1</Link>
+            <Link to="yesno" className="optionlink">Option 1</Link>
             </nav> 
         </div>
     )
