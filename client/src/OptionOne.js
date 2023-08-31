@@ -5,8 +5,9 @@ function OptionOne() {
 
     const [answer, setAnswer] = useState([])
 
-    /*useEffect(() =>{
+    useEffect(() =>{
     let our_integer = Math.floor(Math.random() * 10)
+    console.log(our_integer)
     if (our_integer <= 4){
         setAnswer(true)
     }
@@ -14,9 +15,8 @@ function OptionOne() {
         setAnswer(false)
     }
 },[])
-{answer?<h1 clasName="yes">Yes</h1>:<h1 className="no">No</h1>} 
-
-*/
+    
+//Right now the random element is no longer working.
 
     return (
     <div>
@@ -24,6 +24,7 @@ function OptionOne() {
         <div className="box"> 
             <h1 className="yes">Yes</h1>
             <h1 className="no">No</h1>
+            {answer?<h1 className="yes">Yes</h1>:<h1 className="no">No</h1>} 
         </div>
      </div>
      <nav className="optionnav">
