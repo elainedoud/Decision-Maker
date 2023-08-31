@@ -22,6 +22,11 @@
   margin-top: 100px;
 }
 
+.optionnav {
+  padding: 100px;
+  padding-left: 500px;
+}
+
 .optionlink {
   text-decoration: none;
   color: #9652C7;

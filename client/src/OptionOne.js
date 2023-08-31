@@ -26,7 +26,7 @@ function OptionOne() {
             <h1 className="no">No</h1>
         </div>
      </div>
-     <nav>
+     <nav className="optionnav">
         <Link to="/" className="optionlink">Return Home</Link>
      </nav>
      </div>
