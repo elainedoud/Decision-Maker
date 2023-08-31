@@ -40,7 +40,8 @@
   position: relative;
   transition: all 1s linear;
   transform-style: preserve-3d;
-  
+  animation: pageload 100ms;
+  animation-iteration-count: 10;
 }
 
 .yes, 
@@ -66,6 +67,9 @@
   transform: rotateY(180deg);
 }
 
-.page:hover .box{
+
+@keyframes pageload {
+0% {
   transform: rotateY(180deg);
+}
 }
