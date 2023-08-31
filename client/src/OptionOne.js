@@ -19,12 +19,14 @@ function OptionOne() {
 */
 
     return (
+    <div>
     <div className="page">
         <div className="box"> 
-            <h1 clasName="yes">Yes</h1>
+            <h1 className="yes">Yes</h1>
             <h1 className="no">No</h1>
         </div>
-    <nav>
+     </div>
+     <nav>
         <Link to="/" className="optionlink">Return Home</Link>
      </nav>
      </div>
