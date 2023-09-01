@@ -15,16 +15,20 @@ function OptionOne() {
         setAnswer(false)
     }
 },[])
-    
-//Right now the random element is no longer working.
 
+// <h1 className="yes">Yes</h1>
+//  <h1 className="no">No</h1> 
+
+//{answer?<h1 className="yes">Yes</h1>:<h1 className="no">No</h1>} 
     return (
     <div>
     <div className="page">
         <div className="box"> 
-            <h1 className="yes">Yes</h1>
-            <h1 className="no">No</h1>
-            {answer?<h1 className="yes">Yes</h1>:<h1 className="no">No</h1>} 
+        <h1 className="yes">Yes</h1>
+        <h1 className="no">No</h1> 
+        </div>
+        <div className="newbox">
+        {answer?<h1 className="yes">Yes</h1>:<h1 className="no">No</h1>}
         </div>
      </div>
      <nav className="optionnav">
