@@ -20,6 +20,11 @@ function OptionOne() {
 //  <h1 className="no">No</h1> 
 
 //{answer?<h1 className="yes">Yes</h1>:<h1 className="no">No</h1>} 
+
+//To solve
+         //How to get No card at the end to face the correct way
+         //Find way to have second card not appear until after first (spinning card) disappears
+
     return (
     <div>
     <div className="page">

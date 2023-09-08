@@ -77,7 +77,7 @@
 
 .no{
   z-index: 1;
-  transform: rotateY(180deg);
+  transform: rotateY(360deg);
 }
 
 /*@keyframes pageload {
