@@ -55,6 +55,7 @@
   position: relative;
   transition: all 1s linear;
   transform-style: preserve-3d;
+  animation: showanswer 2s;
 }
 
 .yes, 
@@ -121,4 +122,14 @@ animation-fill-mode: forwards;
   100%{
     transform: scale(0);
   }
+}
+
+@keyframes showanswer {
+  from {
+    transform: opacity(0);
+  }
+  to {
+    transform: opacity(0);
+  }
+
 }
