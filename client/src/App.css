@@ -22,6 +22,11 @@
   margin-top: 100px;
 }
 
+.optionnav {
+  padding: 100px;
+  padding-left: 500px;
+}
+
 .optionlink {
   text-decoration: none;
   color: #9652C7;
@@ -31,13 +36,129 @@
 .page {
   padding: 175px;
   padding-left: 500px;
+  display: flex;
 }
 
 .box {
-  width: 300px;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  transition: all 1s linear;
+  transform-style: preserve-3d;
+  animation: pageload 1s;
+  animation-fill-mode: forwards;
+}
+
+.newbox {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  transition: all 1s linear;
+  transform-style: preserve-3d;
+  animation: showanswer 2s;
+  animation-fill-mode: forwards;
+}
+
+.yes, 
+  .no{
+  height: 100%;
+  width: 100%;
   border: 15px solid navy;
   padding: 50px;
   margin: 20px;
   background-color: #9562C7;
   color: white;
+  display: flex;
+  position: absolute;
+}
+
+.yes{
+  z-index: 2;
+  backface-visibility: hidden;
+}
+
+.no{
+  z-index: 1;
+  transform: rotateY(360deg);
+}
+
+@keyframes pageload {
+  0% {
+    transform: rotateY(0deg);
+  }
+  5% {
+    transform: rotateY(180deg);
+  }
+  10%{
+    transform: rotateY(0deg);
+  }
+  15% {
+    transform: rotateY(180deg);
+  }
+  20% {
+    transform: rotateY(0deg);
+  }
+  25% {
+    transform: rotateY(180deg)
+  }
+  30%{
+    transform: rotateY(0deg)
+  }
+  35% {
+    transform: rotateY(180deg);
+  }
+  40% {
+    transform: rotateY(0deg);
+  }
+  45% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(0deg);
+  }
+  55% {
+    transform: rotateY(180deg);
+  }
+  60% {
+    transform: rotateY(0deg)
+  }
+  65% {
+    transform: rotateY(180deg);
+  }
+  70% {
+    transform: rotateY(0deg);
+  }
+  75% {
+    transform: rotateY(180deg);
+  }
+  80%{
+    transform: rotateY(0deg);
+  }
+  85% {
+    transform: rotateY(180deg);
+  }
+  90% {
+    transform: rotateY(0deg);
+  }
+  95% {
+    transform: rotateY(180deg);
+  }
+  100%{
+    transform: scale(0);
+  }
+}
+
+@keyframes showanswer {
+  0% {
+    opacity: 0;
+  }
+  47.62% {
+    opacity: 0;
+  }
+  52.38% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
