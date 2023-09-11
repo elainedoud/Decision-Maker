@@ -16,15 +16,6 @@ function OptionOne() {
     }
 },[])
 
-// <h1 className="yes">Yes</h1>
-//  <h1 className="no">No</h1> 
-
-//{answer?<h1 className="yes">Yes</h1>:<h1 className="no">No</h1>} 
-
-//To solve
-         //Find way to have second card not appear until after first (spinning card) disappears
-         // Attempting to use keyframe animations for this, but nothing is working yet
-
     return (
     <div>
     <div className="page">
