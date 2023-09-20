@@ -45,7 +45,7 @@
   position: relative;
   transition: all 1s linear;
   transform-style: preserve-3d;
-  animation: pageload 1s;
+  animation: pageloads 1s;
   animation-fill-mode: forwards;
 }
 
@@ -82,7 +82,7 @@
   transform: rotateY(360deg);
 }
 
-@keyframes pageload {
+@keyframes pageloads {
   0% {
     transform: rotateY(0deg);
   }
