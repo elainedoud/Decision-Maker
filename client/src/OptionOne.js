@@ -19,12 +19,12 @@ function OptionOne() {
     return (
     <div>
     <div className="page">
-        <div className="box"> 
-        <h1 className="yes">Yes</h1>
-        <h1 className="no">No</h1> 
+        <div className="practicebox"> 
+        <h1 className="yestext">Yes</h1>
+        <h1 className="notext">No</h1> 
         </div>
-        <div className="newbox">
-        {answer?<h1 className="yes">Yes</h1>:<h1 className="no">No</h1>}
+        <div>
+        {answer?<h1>Yes</h1>:<h1>No</h1>}
         </div>
      </div>
      <nav className="optionnav">
