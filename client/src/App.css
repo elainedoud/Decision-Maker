@@ -183,6 +183,12 @@
   animation-fill-mode: forwards;
 }
 
+.answerText {
+  opacity: 0;
+  animation: showanimation 2s;
+  animation-fill-mode: forwards;
+}
+
 @keyframes viewpracticeboxone {
   0% {
     opacity: 0;
@@ -311,6 +317,21 @@
     opacity: 0;
   }
   100%{
+    opacity: 0;
+  }
+}
+
+@keyframes showanimation {
+  0% {
+    opacity: 0;
+  }
+  47.62% {
+    opacity: 0;
+  }
+  52.38% {
+    opacity: 1;
+  }
+  100% {
     opacity: 1;
   }
 }

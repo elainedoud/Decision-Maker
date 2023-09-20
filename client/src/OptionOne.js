@@ -22,9 +22,7 @@ function OptionOne() {
         <div className="practicebox"> 
         <h1 className="yestext">Yes</h1>
         <h1 className="notext">No</h1> 
-        </div>
-        <div>
-        {answer?<h1>Yes</h1>:<h1>No</h1>}
+        {answer?<h1 className="answerText">Yes</h1>:<h1 className="answerText">No</h1>}
         </div>
      </div>
      <nav className="optionnav">
